@@ -2,7 +2,7 @@ import React from "react";
 
 export default function PokemonList({ pokemon }) {
   return (
-    <div className="grid gap-8 lg:grid-cols-5 lg:grid-rows-4 lg:gap-4 grid-cols-2 grid-rows-10 ">
+    <div className="grid grid-cols-2 lg:grid-cols-5 gap-8 lg:gap-4 lg:grid-rows-4 grid-rows-10">
       {pokemon.map((p) => (
         <div
           className="h-[220px] w-[180px] relative overflow-hidden bg-gray-200 rounded-lg hover:scale-105"
